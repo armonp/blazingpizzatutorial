@@ -1,6 +1,5 @@
 @page "/checkout"
 @layout MainLayout
-@using BlazingPizza.Services
 @inject OrderState OrderState
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
@@ -8,7 +7,7 @@
 
 
 <div class="main">
-    <EditForm Model=Order.DeliveryAddress OnValidSubmit=PlaceOrder OnInvalidSubmit=ShowError>
+    <EditForm Model=Order.DeliveryAddress OnValidSubmit=PlaceOrder>
         <div class="checkout-cols">
             <div class="checkout-order-details">
                 <h4>Review order</h4>
