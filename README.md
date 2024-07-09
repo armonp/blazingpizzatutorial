@@ -1,5 +1,4 @@
-
-# Contributing
+<!-- # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -29,3 +28,24 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+-->
+
+This Project was adopted from https://github.com/csharpfritz/blazor-workshop
+
+Learning includes:
+
+- Creating and running a new Blazor web app.
+- Assembling a user interface for a web app by creating and reusing Blazor components with parameters.
+- Accessing data to display in your web app and sharing data between components
+- Bind an HTML element to a variable in a Blazor component.
+- Interact with Blazor components using event handlers.
+- Using Blazor forms with server side and client side validation to improve data entry.
+- Call JavaScript functions from .NET Code and call .Net code from JavaScript in Blazor Apps
+- Handle events in the Blazor component lifecycle
+- Change component display by passing it a template.
+
+Further Enchancements will include:
+
+- Unit Testing
+- Error Handling
+- Containerization
